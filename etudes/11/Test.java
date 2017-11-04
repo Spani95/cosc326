@@ -1,0 +1,7 @@
+public class Test {
+  public static void main(String [] args) {
+    String test = "Hello world    1 2 3 4 5";
+    System.out.println(test.replace(" ", "").length());
+    System.out.println(test);
+  }
+}
